@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    margin-right: 3rem;
+}
+
+.deco {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.farbe-hintergrund {
+    display: flex;
+    flex-direction: row;
+    background: #9B0000;
+    width: 100%;
+    height: 5rem;
+    justify-content: right;
+    align-items: center;
+    padding: 0px;
+    position: fixed;
+    box-shadow: 1px 0px 10px black;
+}
+
+#welcome-section {
+    display: flex;
+    background:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#ha2 {
+    font-size: 5rem;
+    color: white;
+}
+
+#ha1 {
+    font-size: 2rem;
+    color: #9B0000;
+    margin-top: -1.5rem;
+}
+
+#projekts {
+    display: flex;
+    background: #4D53B4;
+    flex-direction: column;
+    height: 60rem;
+
+    justify-items: center;
+
+   
+}
+
+.project-text {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.bilder {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 1rem;
+align-content: center;
+background:#3a3d40;
+border-radius: 1rem;
+}
+
+.bilder:hover {
+    font-size: 1.3rem;
+}
+
+.links-a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.titel {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.titel:hover {
+    font-size: 1.4rem;
+}
+
+.bilder-p {
+    width: 25rem;
+    height: 25rem;
+}
+
+#git {
+    display: flex;
+    flex-direction: column;
+    background: #32374A;
+    height: 25rem;
+    justify-content: center;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-schrift {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #FFF;
+    margin-bottom: 5rem;
+}
+
+.footer {
+    display: flex;
+    background: #32374A;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-schrift {
+    color: #FFF;
+}
+
+.line {
+    border: 2px solid red;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.icons-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+
+.icons-text:hover {
+    font-size: 1.7rem;
+}
+
+.button {
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #3a3d40;
+    border: none;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
